@@ -41,12 +41,11 @@ $(document).ready(function() {
 
     $("#product-categories button").on('click', function(e) {
     	var targets = ['shared', 'dedicated'];
-
     	var target = "#" + $(this).data('target');
 
     	for (var i = 0; i < targets.length; i++) {
     		$("#" + targets[i]).hide();
-    		$("[data-target='"+ targets[i] +"'").removeClass('primary yellow');
+    		$("[data-target=" + "'" + targets[i] + "']").removeClass('primary yellow');
     	}
 
     	$(target).show();
