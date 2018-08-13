@@ -509,7 +509,7 @@
                                                 <div class="item">
                                                     <div class="content">
                                                         <p class="header">
-                                                            1gbps Bandwidth
+                                                            10gbps Bandwidth
                                                         </p>
                                                     </div>
                                                 </div>
@@ -598,7 +598,7 @@
                                                 <div class="item">
                                                     <div class="content">
                                                         <p class="header">
-                                                            1gbps Bandwidth
+                                                            10gbps Bandwidth
                                                         </p>
                                                     </div>
                                                 </div>
