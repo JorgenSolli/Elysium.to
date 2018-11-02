@@ -204,7 +204,7 @@ section.ui.container {
     background: radial-gradient(circle,#ffe164 0%,#f1ab06 100%);
 }
 
-#products #dedicated img.product {
+#products #shared-plus img.product {
 	max-height: 150px;
 	background: radial-gradient(circle,#1280e1 0%,#002069 100%);
 }

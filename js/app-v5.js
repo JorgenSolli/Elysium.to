@@ -40,7 +40,7 @@ $(document).ready(function() {
     });
 
     $("#product-categories button").on('click', function(e) {
-    	var targets = ['shared', 'dedicated'];
+    	var targets = ['shared', 'shared-plus'];
     	var target = "#" + $(this).data('target');
 
     	for (var i = 0; i < targets.length; i++) {
@@ -49,7 +49,7 @@ $(document).ready(function() {
     	}
 
     	$(target).show();
-    	if (target == "#dedicated") {
+    	if (target == "#shared-plus") {
     		$(this).addClass('primary');
     	} else {
     		$(this).addClass('yellow');
@@ -85,6 +85,23 @@ $(document).ready(function() {
     setTimeout(function(){
         $(".fancyfade").animate({ opacity: 1, left: "0px", top: "0px" }, 'slow');
     }, 500);
+
+
+    $.ajax({
+        type: "GET",
+        url: "https://manage.elysium.to/api/products/stock",
+        success: function(res) {
+            $.each(res, function(product, stock) {
+                if (stock == 0) {
+                    $obj = $("#" + product);
+
+                    $obj.find('.button').each(function() {
+                        $(this).addClass('disabled').text('Out of stock');
+                    });
+                }
+            });
+        }
+    });
 });   
 
 /* Smooth Scrolling */

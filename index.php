@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-PnWzJku7hTqk2JREATthkLpYeVVGcBbXG5yEzk7hD2HIr/VxffIDfNSR7p7u4HUy" crossorigin="anonymous">
     
     <!--==== Main CSS ====-->
-    <link rel="stylesheet" href="css/app-v3.css">
+    <link rel="stylesheet" href="css/app-v4.css">
 </head>
 <body>
     <div class="mobile menu">
@@ -139,18 +139,18 @@
                             <div id="product-categories" class="ui large buttons">
                                 <button data-target="shared" class="ui yellow button">SHARED APPBOX</button>
                                 <div class="or"></div>
-                                <button data-target="dedicated" class="ui button">DEDICATED APPBOX</button>
+                                <button data-target="shared-plus" class="ui button">SHARED APPBOX+</button>
                             </div>
 
                             <div id="product-categories" class="mobile-buttons">
                                 <button data-target="shared" class="ui yellow button w-100">SHARED APPBOX</button>
-                                <button data-target="dedicated" class="ui button w-100">DEDICATED APPBOX</button>
+                                <button data-target="shared-plus" class="ui button w-100">SHARED APPBOX+</button>
                             </div>
                         </div>
                         <div id="shared">
                             <div class="ui stackable equal width grid">
                                 <div class="column">
-                                    <div class="ui special centered card">
+                                    <div id="shared_appbox_2" class="ui special centered card">
                                         <div class="blurring dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
@@ -225,7 +225,7 @@
                                 </div>
 
                                 <div class="column">
-                                    <div class="ui special raised centered card">
+                                    <div id="shared_appbox_1" class="ui special raised centered card">
                                         <div class="wrapper">
                                             <div class="badge">
                                                 POPULAR
@@ -305,12 +305,12 @@
                                 </div>
 
                                 <div class="column">
-                                    <div class="ui special centered card">
+                                    <div id="shared_appbox_3" class="ui special centered card">
                                         <div class="blurring dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
                                                     <div class="center">
-                                                        <div class="ui inverted disabled button">Out of stock</div>
+                                                        <div class="ui inverted button">Order now</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -372,36 +372,36 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <a href="#" class="ui large bottom attached primary disabled button">
+                                        <a href="#" class="ui large bottom attached primary button">
                                             <i class="fal fa-shopping-cart"></i>
-                                            Out of stock
+                                            Order now
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div id="dedicated" style="display: none">
+                        <div id="shared-plus" style="display: none">
                             <div class="ui stackable equal width grid">
                                 <div class="column">
-                                    <div class="ui special centered card">
+                                    <div id="shared_appbox_2_plus" class="ui special centered card">
                                         <div class="blurring dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
                                                     <div class="center">
-                                                        <a href="https://www.elysium.to/client/cart.php?a=add&pid=6" class="ui inverted button">Order Now</a>
+                                                        <a class="ui inverted button">Order now</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img class="product" alt="Dedicated Appbox 2" src="images/dedicated2.svg">
+                                            <img class="product" alt="Shared Appbox+ 2" src="images/dedicated2.svg">
                                         </div>
                                         <div class="content">
-                                            <h3 class="header">Dedicated Appbox 2</h3>
+                                            <h3 class="header">Shared Appbox+ 2</h3>
                                             <div class="ui relaxed divided list">
                                                 <div class="item">
                                                     <div class="content">
                                                         <p class="header">
-                                                            Unlimited Transcodes(4 suggested)
+                                                            To be anounced
                                                         </p>
                                                     </div>
                                                 </div>
@@ -415,7 +415,7 @@
                                                 <div class="item">
                                                     <div class="content">
                                                         <p class="header">
-                                                            10gbps Bandwidth
+                                                            1gbps Bandwidth
                                                         </p>
                                                     </div>
                                                 </div>
@@ -437,13 +437,6 @@
                                                     <div class="content">
                                                         <p class="header">
                                                             Invite friends!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Mount your own NFS/CIFS storage!
                                                         </p>
                                                     </div>
                                                 </div>
@@ -465,15 +458,15 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <a href="https://www.elysium.to/client/cart.php?a=add&pid=6" class="ui large bottom attached primary button">
+                                        <a class="disabled ui large bottom attached primary button">
                                             <i class="fal fa-shopping-cart"></i>
-                                            Order Now
+                                            Order now
                                         </a>
                                     </div>
                                 </div>
 
                                 <div class="column">
-                                    <div class="ui special centered raised card">
+                                    <div id="shared_appbox_1_plus" class="ui special centered raised card">
                                         <div class="wrapper">
                                             <div class="badge">
                                                 POPULAR
@@ -487,15 +480,15 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img class="product" alt="Dedicated Appbox 1" src="images/dedicated1.svg">
+                                            <img class="product" alt="Shared Appbox+ 1" src="images/dedicated1.svg">
                                         </div>
                                         <div class="content">
-                                            <h3 class="header">Dedicated Appbox 1</h3>
+                                            <h3 class="header">Shared Appbox+ 1</h3>
                                             <div class="ui relaxed divided list">
                                                 <div class="item">
                                                     <div class="content">
                                                         <p class="header">
-                                                            Unlimited Transcodes(2 suggested)
+                                                            4 transcodes
                                                         </p>
                                                     </div>
                                                 </div>
@@ -509,7 +502,7 @@
                                                 <div class="item">
                                                     <div class="content">
                                                         <p class="header">
-                                                            10gbps Bandwidth
+                                                            1gbps Bandwidth
                                                         </p>
                                                     </div>
                                                 </div>
@@ -531,13 +524,6 @@
                                                     <div class="content">
                                                         <p class="header">
                                                             Invite friends!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Mount your own NFS/CIFS storage!
                                                         </p>
                                                     </div>
                                                 </div>
@@ -567,24 +553,24 @@
                                 </div>
 
                                 <div class="column">
-                                    <div class="ui special centered card">
+                                    <div id="shared_appbox_3_plus" class="ui special centered card">
                                         <div class="blurring dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
                                                     <div class="center">
-                                                        <a href="https://www.elysium.to/client/cart.php?a=add&pid=15" class="ui inverted button">Order Now</a>
+                                                        <a href="https://www.elysium.to/client/cart.php?a=add&pid=15" class="ui inverted button">Order now</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img class="product" alt="Dedicated Appbox 3" src="images/dedicated3.svg">
+                                            <img class="product" alt="Shared Appbox+ 3" src="images/dedicated3.svg">
                                         </div>
                                         <div class="content">
-                                            <h3 class="header">Dedicated Appbox 3</h3>
+                                            <h3 class="header">Shared Appbox+ 3</h3>
                                             <div class="ui relaxed divided list">
                                                 <div class="item">
                                                     <div class="content">
                                                         <p class="header">
-                                                            Unlimited Transcodes(6 suggested)
+                                                            To be anounced
                                                         </p>
                                                     </div>
                                                 </div>
@@ -598,7 +584,7 @@
                                                 <div class="item">
                                                     <div class="content">
                                                         <p class="header">
-                                                            10gbps Bandwidth
+                                                            1gbps Bandwidth
                                                         </p>
                                                     </div>
                                                 </div>
@@ -626,13 +612,6 @@
                                                 <div class="item">
                                                     <div class="content">
                                                         <p class="header">
-                                                            Mount your own NFS/CIFS storage!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
                                                             Run Tautulli!
                                                         </p>
                                                     </div>
@@ -648,9 +627,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <a href="https://www.elysium.to/client/cart.php?a=add&pid=15" class="ui large bottom attached primary button">
+                                        <a class="disabled ui large bottom attached primary button">
                                             <i class="fal fa-shopping-cart"></i>
-                                            Order Now
+                                            Order now
                                         </a>
                                     </div>
                                 </div>
@@ -886,7 +865,7 @@
                     <div class="ui two column centered stackable grid">
                         <div class="column">
                             <div class="ui centered">
-                                <h2>SHARED <br/>vs <br/>DEDICATED APPBOX</h2>
+                                <h2>SHARED <br/>vs <br/>SHARED +</h2>
                                 <p class="p-lg">
                                     Compare our two infrastructures in the table below!
                                 </p>
@@ -909,23 +888,8 @@
                             </div>
                             <div class="step">
                                 <div class="content">
-                                    <div class="title">Dedicated</div>
+                                    <div class="title">Shared +</div>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="ui middle attached mini unstackable steps">
-                            <div class="active step">
-                                <i class="fal fa-microchip icon"></i>
-                                <div class="content">
-                                    <div class="title">Dedicated CPU Resources</div>
-                                </div>
-                            </div>
-                            <div class="step">
-                                <i class="fal fa-times-circle icon"></i>
-                            </div>
-                            <div class="step">
-                                <i class="fal fa-check-circle icon"></i>
                             </div>
                         </div>
                         
@@ -946,9 +910,39 @@
 
                         <div class="ui middle attached mini unstackable steps">
                             <div class="active step">
-                                <i class="fal fa-memory icon"></i>
+                                <i class="fal fa-hdd icon"></i>
                                 <div class="content">
-                                    <div class="title">Dedicated RAM</div>
+                                    <div class="title">Disk I/O</div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                SSD
+                            </div>
+                            <div class="step">
+                                NVMe(4x faster)
+                            </div>
+                        </div>
+
+                        <div class="ui middle attached mini unstackable steps">
+                            <div class="active step">
+                                <i class="fal fa-hdd icon"></i>
+                                <div class="content">
+                                    <div class="title">Tautulli</div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <i class="fal fa-times-circle icon"></i>
+                            </div>
+                            <div class="step">
+                                <i class="fal fa-check-circle icon"></i>
+                            </div>
+                        </div>
+
+                        <div class="ui middle attached mini unstackable steps">
+                            <div class="active step">
+                                <i class="fal fa-hdd icon"></i>
+                                <div class="content">
+                                    <div class="title">Support for Plex GPU transcode</div>
                                 </div>
                             </div>
                             <div class="step">
@@ -973,38 +967,8 @@
                             </div>
                             <div class="step">
                                 <div class="content">
-                                    <div class="title">10 Gbps</div>
+                                    <div class="title">1 Gbps</div>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="ui middle attached mini unstackable steps">
-                            <div class="active step">
-                                <i class="fal fa-expand icon"></i>
-                                <div class="content">
-                                    <div class="title">Ability to purchase added storage(up to 10tb)</div>
-                                </div>
-                            </div>
-                            <div class="step">
-                                <i class="fal fa-times-circle icon"></i>
-                            </div>
-                            <div class="step">
-                                <i class="fal fa-check-circle icon"></i>
-                            </div>
-                        </div>
-
-                        <div class="ui middle attached mini unstackable steps">
-                            <div class="active step">
-                                <i class="fal fa-link icon"></i>
-                                <div class="content">
-                                    <div class="title">Link 3rd party NFS/CIF share to Server</div>
-                                </div>
-                            </div>
-                            <div class="step">
-                                <i class="fal fa-times-circle icon"></i>
-                            </div>
-                            <div class="step">
-                                <i class="fal fa-check-circle icon"></i>
                             </div>
                         </div>
 
@@ -1017,21 +981,6 @@
                             </div>
                             <div class="step">
                                 <i class="fal fa-check-circle icon"></i>
-                            </div>
-                            <div class="step">
-                                <i class="fal fa-check-circle icon"></i>
-                            </div>
-                        </div>
-
-                        <div class="ui middle attached mini unstackable steps">
-                            <div class="active step">
-                                <i class="fal fa-cogs icon"></i>
-                                <div class="content">
-                                    <div class="title">Unlimited Transcodes</div>
-                                </div>
-                            </div>
-                            <div class="step">
-                                <i class="fal fa-times-circle icon"></i>
                             </div>
                             <div class="step">
                                 <i class="fal fa-check-circle icon"></i>
@@ -1152,6 +1101,6 @@
     <!-- =============== PLUGIN =============== -->
     <script src="js/semantic.min.js"></script>
 
-    <script src="js/app-v4.js"></script>
+    <script src="js/app-v5.js"></script>
 </body>
 </html>
