@@ -476,7 +476,7 @@
                                             <div class="ui dimmer">
                                                 <div class="content">
                                                     <div class="center">
-                                                        <a href="https://www.elysium.to/client/cart.php?a=add&pid=13" class="ui inverted button">Order Now</a>
+                                                        <a href="https://elysium.to/client/cart.php?gid=6" class="ui inverted button">Order Now</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -545,7 +545,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <a href="https://www.elysium.to/client/cart.php?a=add&pid=13" class="ui large bottom attached primary button">
+                                        <a href="https://elysium.to/client/cart.php?gid=6" class="ui large bottom attached primary button">
                                             <i class="fal fa-shopping-cart"></i>
                                             Order Now
                                         </a>
@@ -558,7 +558,7 @@
                                             <div class="ui dimmer">
                                                 <div class="content">
                                                     <div class="center">
-                                                        <a href="https://www.elysium.to/client/cart.php?a=add&pid=15" class="ui inverted button">Order now</a>
+                                                        <a class="ui inverted button">Order now</a>
                                                     </div>
                                                 </div>
                                             </div>
