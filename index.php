@@ -290,7 +290,7 @@
                                                     <div class="content">
                                                         <div class="price">
                                                             <span class="currency">$</span>
-                                                            <span class="value">8</span>
+                                                            <span class="value">9.99</span>
                                                             <span class="period">/MO</span>
                                                         </div>
                                                     </div>
