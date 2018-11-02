@@ -1075,7 +1075,7 @@
                                     <div class="content">
                                         <div class="header">
                                             <i class="fal fa-server"></i>
-                                            Appbox Solutions starting at $8/month
+                                            Appbox Solutions starting at $9.99/month
                                         </div>
                                     </div>
                                 </a>
