@@ -449,6 +449,13 @@
                                                 </div>
                                                 <div class="item">
                                                     <div class="content">
+                                                        <p class="header">
+                                                        4k Movies
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
                                                         <div class="price">
                                                             <span class="currency">$</span>
                                                             <span class="value">30</span>
@@ -536,6 +543,13 @@
                                                 </div>
                                                 <div class="item">
                                                     <div class="content">
+                                                        <p class="header">
+                                                        4k Movies
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
                                                         <div class="price">
                                                             <span class="currency">$</span>
                                                             <span class="value">18</span>
@@ -618,6 +632,13 @@
                                                 </div>
                                                 <div class="item">
                                                     <div class="content">
+                                                        <p class="header">
+                                                        4k Movies
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
                                                         <div class="price">
                                                             <span class="currency">$</span>
                                                             <span class="value">45</span>
@@ -676,10 +697,10 @@
                     <div class="eight wide column centered">
                         <div class="header">
                             <img src="images/sonarr.png" alt="Unique approach"/>
-                            <h3>Sonarr, Radarr, Requests(Ombi), Organizr</h3>
+                            <h3>Sonarr, Radarr, Requests(In-house), Organizr</h3>
                         </div>
                         <p class="p-lg">
-                            We make use of these applications to insure automatic and daily updates of Movies and TV Shows, users can easily request new content via our request page, and keep track of weekly TV Shows via Organizr!
+                        We make use of these applications to insure automatic and daily updates of Movies and TV Shows, users can easily request new content via our request page, and keep track of weekly TV Shows via our TV scheduler!
                         </p>
                     </div>
                     <div class="eight wide column centered">
@@ -925,7 +946,7 @@
 
                         <div class="ui middle attached mini unstackable steps">
                             <div class="active step">
-                                <i class="fal fa-hdd icon"></i>
+                                <i class="fal fa-chart-area icon"></i>
                                 <div class="content">
                                     <div class="title">Tautulli</div>
                                 </div>
@@ -940,7 +961,7 @@
 
                         <div class="ui middle attached mini unstackable steps">
                             <div class="active step">
-                                <i class="fal fa-hdd icon"></i>
+                                <i class="fal fa-microchip icon"></i>
                                 <div class="content">
                                     <div class="title">Support for Plex GPU transcode</div>
                                 </div>
@@ -981,6 +1002,21 @@
                             </div>
                             <div class="step">
                                 <i class="fal fa-check-circle icon"></i>
+                            </div>
+                            <div class="step">
+                                <i class="fal fa-check-circle icon"></i>
+                            </div>
+                        </div>
+
+                        <div class="ui middle attached mini unstackable steps">
+                            <div class="active step">
+                                <i class="fal fa-video icon"></i>
+                                <div class="content">
+                                    <div class="title">4k Movies</div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <i class="fal fa-times-circle icon"></i>
                             </div>
                             <div class="step">
                                 <i class="fal fa-check-circle icon"></i>
