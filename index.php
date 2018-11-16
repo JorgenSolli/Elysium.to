@@ -26,7 +26,7 @@
     <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
- 
+
     <!--==== Base CSS ====-->
     <link rel="stylesheet" href="css/semantic-v1.min.css">
     
@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-PnWzJku7hTqk2JREATthkLpYeVVGcBbXG5yEzk7hD2HIr/VxffIDfNSR7p7u4HUy" crossorigin="anonymous">
     
     <!--==== Main CSS ====-->
-    <link rel="stylesheet" href="css/app-v4.css">
+    <link rel="stylesheet" href="css/app-v5.css">
 </head>
 <body>
     <div class="mobile menu">
@@ -656,6 +656,30 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- BEGIN MAILFORGE EMBED FORM  -->
+                        <div class="ui container space centered">
+                            <form class="ui form" id="mailforge-embedded-form" action="https://hosted.mailforge.io/subscribe?u=pJOG" method="POST">
+                                <h2 class="mailforge-title"><small>Product out of stock?</small></h2>
+                                <p>Subscribe to our mailing list and get notified when products are in stock!</p>
+                                <div class="ui stackable one column centered grid">
+                                    <div class="four column centered row">
+                                        <div class="column">
+                                            <div class="field">
+                                                <input type="text" id="57" placeholder="Your E-mail address" name="email">
+                                            </div>
+                                        </div>
+                                        <div class="column">
+                                            <button type="submit" class="ui positive fluid button icon labeled">
+                                                <i class="envelope outline icon"></i>
+                                                Subscribe
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- END OF MAILFORGE EMBED FORM -->
                     </div>
                 </div>
             </section>
