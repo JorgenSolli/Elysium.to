@@ -659,7 +659,7 @@
 
                         <!-- BEGIN MAILFORGE EMBED FORM  -->
                         <div class="ui container space centered">
-                            <form class="ui form" id="mailforge-embedded-form" action="https://hosted.mailforge.io/subscribe?u=pJOG" method="POST">
+                            <form class="ui form" id="mailforge-embedded-form" action="https://hosted.mailforge.io/subscribe?u=37pJOG" method="POST">
                                 <h2 class="mailforge-title"><small>Product out of stock?</small></h2>
                                 <p>Subscribe to our mailing list and get notified when products are in stock!</p>
                                 <div class="ui stackable one column centered grid">
