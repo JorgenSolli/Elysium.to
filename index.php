@@ -137,251 +137,18 @@
                         <div class="ui container space centered">
                             <h2>OUR PRODUCTS</h2>
                             <div id="product-categories" class="ui large buttons">
-                                <button data-target="shared" class="ui yellow button">SHARED APPBOX</button>
+                                <button data-target="shared-plus" class="ui blue button">SHARED APPBOX+ & BAREMETAL</button>
                                 <div class="or"></div>
-                                <button data-target="shared-plus" class="ui button">SHARED APPBOX+</button>
+                                <button data-target="shared" class="ui button">SHARED APPBOX</button>
                             </div>
 
                             <div id="product-categories" class="mobile-buttons">
-                                <button data-target="shared" class="ui yellow button w-100">SHARED APPBOX</button>
-                                <button data-target="shared-plus" class="ui button w-100">SHARED APPBOX+</button>
-                            </div>
-                        </div>
-                        <div id="shared">
-                            <div class="ui stackable equal width grid">
-                                <div class="column">
-                                    <div id="shared_appbox_2" class="ui special centered card">
-                                        <div class="blurring dimmable image">
-                                            <div class="ui dimmer">
-                                                <div class="content">
-                                                    <div class="center">
-                                                        <a href="https://www.elysium.to/client/cart.php?a=add&pid=7" class="ui inverted button">Order Now</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img class="product" alt="Shared Appbox 2" src="images/shared2.svg">
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="header">Shared Appbox 2</h3>
-                                            <div class="ui relaxed divided list">
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            2-3 transcodes
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Unlimited Direct Plays
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            1gbps Bandwidth
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Plex Sync(If plexpass)
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Download via plex!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Invite friends!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <div class="price">
-                                                            <span class="currency">$</span>
-                                                            <span class="value">15</span>
-                                                            <span class="period">/MO</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="https://www.elysium.to/client/cart.php?a=add&pid=7" class="ui large bottom attached primary button">
-                                            <i class="fal fa-shopping-cart"></i>
-                                            Order Now
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="column">
-                                    <div id="shared_appbox_1" class="ui special raised centered card">
-                                        <div class="wrapper">
-                                            <div class="badge">
-                                                POPULAR
-                                            </div>
-                                        </div>
-                                        <div class="blurring dimmable image">
-                                            <div class="ui dimmer">
-                                                <div class="content">
-                                                    <div class="center">
-                                                        <a href="https://www.elysium.to/client/cart.php?a=add&pid=1" class="ui inverted button">Order Now</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img class="product" alt="Shared Appbox 1" src="images/shared1.svg">
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="header">Shared Appbox 1</h3>
-                                            <div class="ui relaxed divided list">
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            1 transcode
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Unlimited Direct Plays
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            1gbps Bandwidth
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Plex Sync(If plexpass)
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Download via plex!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Invite friends!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <div class="price">
-                                                            <span class="currency">$</span>
-                                                            <span class="value">9.99</span>
-                                                            <span class="period">/MO</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="https://www.elysium.to/client/cart.php?a=add&pid=1" class="ui large bottom attached primary button">
-                                            <i class="fal fa-shopping-cart"></i>
-                                            Order Now
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="column">
-                                    <div id="shared_appbox_3" class="ui special centered card">
-                                        <div class="blurring dimmable image">
-                                            <div class="ui dimmer">
-                                                <div class="content">
-                                                    <div class="center">
-                                                        <div class="ui inverted button">Order now</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img class="product" alt="Shared Appbox 3" src="images/shared3.svg">
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="header">Shared Appbox 3</h3>
-                                            <div class="ui relaxed divided list">
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            5 transcodes
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Unlimited Direct Plays
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            1gbps Bandwidth
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Plex Sync(If plexpass)
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Download via plex!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Invite friends!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <div class="price">
-                                                            <span class="currency">$</span>
-                                                            <span class="value">20</span>
-                                                            <span class="period">/MO</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="#" class="ui large bottom attached primary button">
-                                            <i class="fal fa-shopping-cart"></i>
-                                            Order now
-                                        </a>
-                                    </div>
-                                </div>
+                                <button data-target="shared-plus" class="ui blue button w-100">SHARED APPBOX+ & BAREMETAL</button>
+                                <button data-target="shared" class="ui button w-100">SHARED APPBOX</button>
                             </div>
                         </div>
 
-                        <div id="shared-plus" style="display: none">
+                        <div id="shared-plus">
                             <div class="ui stackable equal width grid">
                                 <div class="column">
                                     <div id="shared_appbox_2_plus" class="ui special centered card">
@@ -403,64 +170,6 @@
                                                         <p class="header">
                                                             To be anounced
                                                         </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Unlimited Direct Plays
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            1gbps Bandwidth
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Plex Sync(If plexpass)
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Download via plex!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Invite friends!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                            Run Tautulli!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <p class="header">
-                                                        4k Movies
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="content">
-                                                        <div class="price">
-                                                            <span class="currency">$</span>
-                                                            <span class="value">30</span>
-                                                            <span class="period">/MO</span>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -567,24 +276,24 @@
                                 </div>
 
                                 <div class="column">
-                                    <div id="shared_appbox_3_plus" class="ui special centered card">
+                                    <div id="baremetal" class="ui special centered card">
                                         <div class="blurring dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
                                                     <div class="center">
-                                                        <a class="ui inverted button">Order now</a>
+                                                        <a href="https://elysium.to/client/cart.php?gid=4" class="ui inverted button">Order now</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img class="product" alt="Shared Appbox+ 3" src="images/dedicated3.svg">
+                                            <img class="product" alt="Baremetal" src="images/dedicated3.svg">
                                         </div>
                                         <div class="content">
-                                            <h3 class="header">Shared Appbox+ 3</h3>
+                                            <h3 class="header">Baremetal</h3>
                                             <div class="ui relaxed divided list">
                                                 <div class="item">
                                                     <div class="content">
                                                         <p class="header">
-                                                            To be anounced
+                                                            Up to <strong>25* transcodes!</strong>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -641,16 +350,182 @@
                                                     <div class="content">
                                                         <div class="price">
                                                             <span class="currency">$</span>
-                                                            <span class="value">45</span>
+                                                            <span class="value">60**</span>
                                                             <span class="period">/MO</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <a class="disabled ui large bottom attached primary button">
+                                        <a href="https://elysium.to/client/cart.php?gid=4" class="ui large bottom attached primary button">
                                             <i class="fal fa-shopping-cart"></i>
                                             Order now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ui space centered">
+                                <div class="ui compact info message">
+                                    *With Plexpass and GPU transcoding enabled<br/>
+                                    **If used for reselling to 25+ people, a 50$/month bandwidth package will be required
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="shared" style="display: none">
+                            <div class="ui stackable equal width grid">
+                                <div class="column">
+                                    <div id="shared_appbox_1" class="ui special centered card">
+                                        <div class="wrapper">
+                                            <div class="badge">
+                                                POPULAR
+                                            </div>
+                                        </div>
+                                        <div class="blurring dimmable image">
+                                            <div class="ui dimmer">
+                                                <div class="content">
+                                                    <div class="center">
+                                                        <a href="https://www.elysium.to/client/cart.php?a=add&pid=1" class="ui inverted button">Order Now</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img class="product" alt="Shared Appbox 1" src="images/shared1.svg">
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="header">Shared Appbox 1</h3>
+                                            <div class="ui relaxed divided list">
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            1 transcode
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Unlimited Direct Plays
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            1gbps Bandwidth
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Plex Sync(If plexpass)
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Download via plex!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Invite friends!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <div class="price">
+                                                            <span class="currency">$</span>
+                                                            <span class="value">9.99</span>
+                                                            <span class="period">/MO</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="https://www.elysium.to/client/cart.php?a=add&pid=1" class="ui large bottom attached primary button">
+                                            <i class="fal fa-shopping-cart"></i>
+                                            Order Now
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="column">
+                                    <div id="shared_appbox_2" class="ui special centered card">
+                                        <div class="blurring dimmable image">
+                                            <div class="ui dimmer">
+                                                <div class="content">
+                                                    <div class="center">
+                                                        <a href="https://www.elysium.to/client/cart.php?a=add&pid=7" class="ui inverted button">Order Now</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img class="product" alt="Shared Appbox 2" src="images/shared2.svg">
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="header">Shared Appbox 2</h3>
+                                            <div class="ui relaxed divided list">
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            2-3 transcodes
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Unlimited Direct Plays
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            1gbps Bandwidth
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Plex Sync(If plexpass)
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Download via plex!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Invite friends!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <div class="price">
+                                                            <span class="currency">$</span>
+                                                            <span class="value">15</span>
+                                                            <span class="period">/MO</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="https://www.elysium.to/client/cart.php?a=add&pid=7" class="ui large bottom attached primary button">
+                                            <i class="fal fa-shopping-cart"></i>
+                                            Order Now
                                         </a>
                                     </div>
                                 </div>
@@ -748,7 +623,7 @@
                             <i class="fal fa-film"></i>
                             <div class="ui statistic">
                                 <div class="value">
-                                    4,500+
+                                    12 000+
                                 </div>
                                 <div class="label">
                                     Movies
@@ -760,7 +635,7 @@
                             <i class="fal fa-tv"></i>
                             <div class="ui statistic">
                                 <div class="value">
-                                    900+
+                                    3600+
                                 </div>
                                 <div class="label">
                                     TV Shows
@@ -772,7 +647,7 @@
                             <i class="fal fa-fire"></i>
                             <div class="ui statistic">
                                 <div class="value">
-                                    33,000+
+                                    139 000+
                                 </div>
                                 <div class="label">
                                     Episodes
@@ -784,7 +659,7 @@
                             <i class="fal fa-hdd"></i>
                             <div class="ui statistic">
                                 <div class="value">
-                                    70+
+                                    300+
                                 </div>
                                 <div class="label">
                                     TeraBytes
@@ -910,7 +785,7 @@
                     <div class="ui two column centered stackable grid">
                         <div class="column">
                             <div class="ui centered">
-                                <h2>SHARED <br/>vs <br/>SHARED +</h2>
+                                <h2>SHARED <br/>vs <br/>SHARED + & BAREMETAL</h2>
                                 <p class="p-lg">
                                     Compare our two infrastructures in the table below!
                                 </p>
@@ -933,7 +808,7 @@
                             </div>
                             <div class="step">
                                 <div class="content">
-                                    <div class="title">Shared +</div>
+                                    <div class="title">Shared + / Baremetal</div>
                                 </div>
                             </div>
                         </div>
@@ -991,7 +866,7 @@
                                 </div>
                             </div>
                             <div class="step">
-                                <i class="fal fa-times-circle icon"></i>
+                                <i class="fal fa-check-circle icon"></i>
                             </div>
                             <div class="step">
                                 <i class="fal fa-check-circle icon"></i>
@@ -1086,6 +961,7 @@
                 </div>
             </div>
         </section>
+
 
         <footer id="footer">
             <div class="ui large container">

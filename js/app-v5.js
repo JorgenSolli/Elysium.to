@@ -45,12 +45,12 @@ $(document).ready(function() {
 
     	for (var i = 0; i < targets.length; i++) {
     		$("#" + targets[i]).hide();
-    		$("[data-target=" + "'" + targets[i] + "']").removeClass('primary yellow');
+    		$("[data-target=" + "'" + targets[i] + "']").removeClass('blue yellow');
     	}
 
     	$(target).show();
     	if (target == "#shared-plus") {
-    		$(this).addClass('primary');
+    		$(this).addClass('blue');
     	} else {
     		$(this).addClass('yellow');
     	}
@@ -92,7 +92,7 @@ $(document).ready(function() {
         url: "https://manage.elysium.to/api/products/stock",
         success: function(res) {
             $.each(res, function(product, stock) {
-                if (stock == 0) {
+                if (stock <= 0) {
                     $obj = $("#" + product);
 
                     $obj.find('.button').each(function() {
