@@ -1037,6 +1037,6 @@
     <!-- =============== PLUGIN =============== -->
     <script src="js/semantic.min.js"></script>
 
-    <script src="js/app-v5.js"></script>
+    <script src="js/app-v6.js"></script>
 </body>
 </html>
