@@ -165,11 +165,69 @@
                                         <div class="content">
                                             <h3 class="header">Shared Appbox+ 2</h3>
                                             <div class="ui relaxed divided list">
+                                            <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            6 transcodes
+                                                        </p>
+                                                    </div>
+                                                </div>
                                                 <div class="item">
                                                     <div class="content">
                                                         <p class="header">
-                                                            To be anounced
+                                                            Unlimited Direct Plays
                                                         </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            1gbps Bandwidth
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Plex Sync(If plexpass)
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Download via plex!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Invite friends!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Run Tautulli!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                        4k Movies
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <div class="price">
+                                                            <span class="currency">$</span>
+                                                            <span class="value">29.99</span>
+                                                            <span class="period">/MO</span>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -261,7 +319,7 @@
                                                     <div class="content">
                                                         <div class="price">
                                                             <span class="currency">$</span>
-                                                            <span class="value">18</span>
+                                                            <span class="value">19.99</span>
                                                             <span class="period">/MO</span>
                                                         </div>
                                                     </div>
@@ -365,7 +423,7 @@
                                 </div>
                             </div>
 
-                            <div class="ui space centered">
+                            <div class="ui space centered" style="margin-top: 15px;">
                                 <div class="ui compact info message">
                                     *With Plexpass and GPU transcoding enabled<br/>
                                     **If used for reselling to 25+ people, a 50$/month bandwidth package will be required
