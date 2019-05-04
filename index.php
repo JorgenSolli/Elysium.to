@@ -120,7 +120,7 @@
                         <div class="nine wide column">
                             <h1>
                                 <span class="text-sm">The most unique</span> <br/>
-                                <span class="text-lg">Plex Media Streaming Service You have ever experienced!</span>
+                                <span class="text-lg">Plex appbox service ever experienced!</span>
                             </h1>
                         </div>
                         <div class="seven wide column">
@@ -623,7 +623,7 @@
                         <div class="ui centered">
                             <h2>OUR SERVICES</h2>
                             <p class="p-lg">
-                                Elysium provides a range of service with the primary goal of allowing customers to stream a large variety of media across as large a range of platforms as possible!
+                                Elysium provides a range of service with the primary goal of allowing customers to run Plex in an easily managed environment
                             </p>
                         </div>
                     </div>
@@ -633,7 +633,7 @@
                     <div class="eight wide column centered">
                         <div class="header">
                             <img src="images/unique.png" alt="Unique approach"/>
-                            <h3>Unique Approach to Plex Streaming!</h3>
+                            <h3>Unique approach to Plex Hosting!</h3>
                         </div>
                         <p class="p-lg">
                             With our unique approach to plex hosting, we can promise you will never find another service like ours! Unique libraries, full control of the Plex Media Server, admin access and more!
@@ -653,15 +653,6 @@
                 <div class="ui stackable grid">
                     <div class="eight wide column centered">
                         <div class="header">
-                            <img src="images/sonarr.png" alt="Unique approach"/>
-                            <h3>Sonarr, Radarr, Requests(In-house), Organizr</h3>
-                        </div>
-                        <p class="p-lg">
-                        We make use of these applications to insure automatic and daily updates of Movies and TV Shows, users can easily request new content via our request page, and keep track of weekly TV Shows via our TV scheduler!
-                        </p>
-                    </div>
-                    <div class="eight wide column centered">
-                        <div class="header">
                             <img src="images/control.png" alt="Unique approach"/>
                             <h3>Control your own server, with our custom, professional admin page!</h3>
                         </div>
@@ -673,62 +664,6 @@
             </section>
         </div>
 
-        <section id="statistics">
-            <div class="ui large container">
-                <div class="ui centered grid">
-                    <div class="doubling stackable four column row">
-                        <div class="centered column">
-                            <i class="fal fa-film"></i>
-                            <div class="ui statistic">
-                                <div class="value">
-                                    12 000+
-                                </div>
-                                <div class="label">
-                                    Movies
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="centered column">
-                            <i class="fal fa-tv"></i>
-                            <div class="ui statistic">
-                                <div class="value">
-                                    3600+
-                                </div>
-                                <div class="label">
-                                    TV Shows
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="centered column">
-                            <i class="fal fa-fire"></i>
-                            <div class="ui statistic">
-                                <div class="value">
-                                    139 000+
-                                </div>
-                                <div class="label">
-                                    Episodes
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="centered column">
-                            <i class="fal fa-hdd"></i>
-                            <div class="ui statistic">
-                                <div class="value">
-                                    300+
-                                </div>
-                                <div class="label">
-                                    TeraBytes
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <div class="section-3">
             <section id="fundamentals">
                 <div class="ui container">
@@ -737,7 +672,7 @@
                             <div class="ui centered">
                                 <h2>FUNDAMENTALS AT ELYSIUM</h2>
                                 <p class="p-lg">
-                                    At Elysium we strive to provide the best, cheapest and most reliable media streaming service as possible - Below are our key focuses and pillars
+                                    At Elysium we strive to provide the best and most reliable Plex Server hosting as possible
                                 </p>
                             </div>
                         </div>
@@ -758,7 +693,7 @@
                                 <div class="ui raised segment">
                                     <i class="fal fa-tachometer"></i>
                                     <p class="p-lg">
-                                        Fast internal network between all nodes and storage for fast and reliable streaming!
+                                        Optional CDN configurations for blazing fast network speed in most of the world!
                                     </p>
                                 </div>
                             </div>
