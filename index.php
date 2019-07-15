@@ -536,7 +536,7 @@
                                 <div class="ui compact info message">
                                     *With Plexpass and GPU transcoding enabled<br/>
                                     **Optional addon to deploy customer appboxes on baremetal 1, no more then 12 suggested - On baremetal 2, no more then 22 suggested. If more customers required, additional storage must be purchased<br/>
-                                    ***If used for reselling to 25+ people, a 50$/month bandwidth package will be required<br/>
+                                    ***If reselling and using more then 10tb data a month, and not a resell panel customers, additional 20$/month<br/>
                                 </div>
                             </div>
                         </div>
