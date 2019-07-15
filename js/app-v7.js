@@ -40,7 +40,7 @@ $(document).ready(function() {
     });
 
     $("#product-categories button").on('click', function(e) {
-    	var targets = ['shared', 'shared-plus'];
+    	var targets = ['shared', 'shared-plus', 'baremetal'];
     	var target = "#" + $(this).data('target');
 
     	for (var i = 0; i < targets.length; i++) {
@@ -49,7 +49,7 @@ $(document).ready(function() {
     	}
 
     	$(target).show();
-    	if (target == "#shared-plus") {
+        if (target == "#shared-plus" || target == "#baremetal") {
     		$(this).addClass('blue');
     	} else {
     		$(this).addClass('yellow');

@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-PnWzJku7hTqk2JREATthkLpYeVVGcBbXG5yEzk7hD2HIr/VxffIDfNSR7p7u4HUy" crossorigin="anonymous">
     
     <!--==== Main CSS ====-->
-    <link rel="stylesheet" href="css/app-v5.css">
+    <link rel="stylesheet" href="css/app-v6.css">
 </head>
 <body>
     <div class="mobile menu">
@@ -137,13 +137,14 @@
                         <div class="ui container space centered">
                             <h2>OUR PRODUCTS</h2>
                             <div id="product-categories" class="ui large buttons">
-                                <button data-target="shared-plus" class="ui blue button">SHARED APPBOX+ & BAREMETAL</button>
-                                <div class="or"></div>
+                                <button data-target="shared-plus" class="ui blue button">SHARED APPBOX+</button>
+                                <button data-target="baremetal" class="ui button">BAREMETAL</button>
                                 <button data-target="shared" class="ui button">SHARED APPBOX</button>
                             </div>
 
                             <div id="product-categories" class="mobile-buttons">
-                                <button data-target="shared-plus" class="ui blue button w-100">SHARED APPBOX+ & BAREMETAL</button>
+                                <button data-target="shared-plus" class="ui blue button w-100">SHARED APPBOX+</button>
+                                <button data-target="baremetal" class="ui button w-100">BAREMETAL</button>
                                 <button data-target="shared" class="ui button w-100">SHARED APPBOX</button>
                             </div>
                         </div>
@@ -240,7 +241,7 @@
                                 </div>
 
                                 <div class="column">
-                                    <div id="shared_appbox_1_plus" class="ui special centered raised card">
+                                    <div id="shared_appbox_1_plus" class="ui special centered card">
                                         <div class="wrapper">
                                             <div class="badge">
                                                 POPULAR
@@ -332,21 +333,25 @@
                                         </a>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
 
+                        <div id="baremetal" style="display: none">
+                            <div class="ui stackable equal width grid">
                                 <div class="column">
                                     <div id="baremetal" class="ui special centered card">
                                         <div class="blurring dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
                                                     <div class="center">
-                                                        <a href="https://elysium.to/client/cart.php?gid=4" class="ui inverted button">Order now</a>
+                                                        <a href="https://elysium.to/client/cart.php?a=add&pid=16" class="ui inverted button">Order now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <img class="product" alt="Baremetal" src="images/dedicated3.svg">
                                         </div>
                                         <div class="content">
-                                            <h3 class="header">Baremetal</h3>
+                                            <h3 class="header">Baremetal 1</h3>
                                             <div class="ui relaxed divided list">
                                                 <div class="item">
                                                     <div class="content">
@@ -406,16 +411,120 @@
                                                 </div>
                                                 <div class="item">
                                                     <div class="content">
+                                                        <p class="header">
+                                                            Reseller panel**<br/>
+                                                            Deploy up to 12 containers
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
                                                         <div class="price">
                                                             <span class="currency">$</span>
-                                                            <span class="value">60**</span>
-                                                            <span class="period">/MO</span>
+                                                            <span class="value">60</span>
+                                                            <span class="period">/MO***</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <a href="https://elysium.to/client/cart.php?gid=4" class="ui large bottom attached primary button">
+                                        <a href="https://elysium.to/client/cart.php?a=add&pid=16" class="ui large bottom attached primary button">
+                                            <i class="fal fa-shopping-cart"></i>
+                                            Order now
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div id="baremetal2" class="ui special centered card">
+                                        <div class="blurring dimmable image">
+                                            <div class="ui dimmer">
+                                                <div class="content">
+                                                    <div class="center">
+                                                        <a href="https://elysium.to/client/cart.php?a=add&pid=25" class="ui inverted button">Order now</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img class="product" alt="Baremetal" src="images/dedicated3.svg">
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="header">Baremetal 2</h3>
+                                            <div class="ui relaxed divided list">
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Up to <strong>25* transcodes!</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Unlimited Direct Plays
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            1gbps Bandwidth
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Plex Sync(If plexpass)
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Download via plex!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Invite friends!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Run Tautulli!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            4k Movies
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <p class="header">
+                                                            Reseller panel**<br/>
+                                                            Deploy up to 22 containers
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="content">
+                                                        <div class="price">
+                                                            <span class="currency">$</span>
+                                                            <span class="value">75</span>
+                                                            <span class="period">/MO***</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="https://elysium.to/client/cart.php?a=add&pid=25" class="ui large bottom attached primary button">
                                             <i class="fal fa-shopping-cart"></i>
                                             Order now
                                         </a>
@@ -426,7 +535,8 @@
                             <div class="ui space centered" style="margin-top: 15px;">
                                 <div class="ui compact info message">
                                     *With Plexpass and GPU transcoding enabled<br/>
-                                    **If used for reselling to 25+ people, a 50$/month bandwidth package will be required
+                                    **Optional addon to deploy customer appboxes on baremetal 1, no more then 12 suggested - On baremetal 2, no more then 22 suggested. If more customers required, additional storage must be purchased
+                                    ***If used for reselling to 25+ people, a 50$/month bandwidth package will be required<br/>
                                 </div>
                             </div>
                         </div>
@@ -1030,6 +1140,6 @@
     <!-- =============== PLUGIN =============== -->
     <script src="js/semantic.min.js"></script>
 
-    <script src="js/app-v6.js"></script>
+    <script src="js/app-v7.js"></script>
 </body>
 </html>
