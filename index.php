@@ -535,7 +535,7 @@
                             <div class="ui space centered" style="margin-top: 15px;">
                                 <div class="ui compact info message">
                                     *With Plexpass and GPU transcoding enabled<br/>
-                                    **Optional addon to deploy customer appboxes on baremetal 1, no more then 12 suggested - On baremetal 2, no more then 22 suggested. If more customers required, additional storage must be purchased
+                                    **Optional addon to deploy customer appboxes on baremetal 1, no more then 12 suggested - On baremetal 2, no more then 22 suggested. If more customers required, additional storage must be purchased<br/>
                                     ***If used for reselling to 25+ people, a 50$/month bandwidth package will be required<br/>
                                 </div>
                             </div>
