@@ -339,7 +339,7 @@
                         <div id="baremetal" style="display: none">
                             <div class="ui stackable equal width grid">
                                 <div class="column">
-                                    <div id="baremetal" class="ui special centered card">
+                                    <div id="baremetal_1" class="ui special centered card">
                                         <div class="blurring dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
@@ -435,7 +435,7 @@
                                     </div>
                                 </div>
                                 <div class="column">
-                                    <div id="baremetal2" class="ui special centered card">
+                                    <div id="baremetal_2" class="ui special centered card">
                                         <div class="blurring dimmable image">
                                             <div class="ui dimmer">
                                                 <div class="content">
