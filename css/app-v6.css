@@ -502,6 +502,11 @@ section.ui.container {
     background-size: cover;
 }
 
+.product-card__image--baremetal {
+    background: url("../images/svg/baremetal.svg");
+    background-size: cover;
+}
+
 .product-card__image img {
     width: 100px;
     position: relative;
@@ -513,12 +518,28 @@ section.ui.container {
     top: -40px;
 }
 
+.product-card__image--baremetal img {
+    width: 140px;
+    top: 0px;
+}
+
 .product-card__level {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
     margin-bottom: 3px;
+}
+
+.product-card__level.product-card__level--appbox_regular {
     color: #4facff;
+}
+
+.product-card__level.product-card__level--appbox_plus {
+    color: #1c6a73;
+}
+
+.product-card__level.product-card__level--baremetal {
+    color: #fb6021;
 }
 
 .product-card__unit-name {
@@ -534,7 +555,7 @@ section.ui.container {
 }
 
 .product-card__price {
-    padding: 0 20px 20px 20px;
+    padding: 0 20px 0 20px;
     margin-bottom: 10px;
     text-align: center;
     border: 0;
@@ -582,6 +603,13 @@ section.ui.container {
     border-right: 1px solid #114c54;
 }
 
+.product-card__unit-stats--baremetal {
+    background: #fb6021;
+}
+.product-card__unit-stats.product-card__unit-stats--baremetal .one-third {
+    border-right: 1px solid #c14918;
+}
+
 .product-card__unit-stats .one-third {
     width: 33%;
     float: left;
@@ -601,6 +629,10 @@ section.ui.container {
     margin-bottom: 10px;
 }
 
+.stat .fal {
+    line-height: 0;
+}
+
 .product-card__unit-stats .stat-value {
     text-transform: uppercase;
     font-weight: 400;
@@ -609,6 +641,44 @@ section.ui.container {
 
 .product-card__unit-stats .no-border {
     border-right: none !important;
+}
+
+.product-card__cta {
+    padding-bottom: 20px;
+}
+
+.product-card__cta .product-button {
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.appbox__regular .product-card__cta .product-button {
+    background: #4facff;
+}
+
+.appbox__regular .product-card__cta .product-button:hover, .appbox__regular .product-card__cta .product-button:focus {
+    background: #204aa0;
+}
+
+.appbox__plus .product-card__cta .product-button {
+    background: #4facff;
+}
+
+.appbox__plus .product-card__cta .product-button:hover, .appbox__plus .product-card__cta .product-button:focus {
+    background: #204aa0;
+}
+
+.baremetal .product-card__cta .product-button {
+    background: #4facff;
+}
+
+.baremetal .product-card__cta .product-button:hover, .baremetal .product-card__cta .product-button:focus {
+    background: #204aa0;
 }
 
 .clearfix:after {
