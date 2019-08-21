@@ -64,3 +64,11 @@
         </div>
     </div>
 </footer>
+
+<!-- =============== JQUERY =============== -->
+<script src="js/jquery-2.1.4.min.js"></script>
+
+<!-- =============== PLUGIN =============== -->
+<script src="js/semantic.min.js"></script>
+
+<script src="js/app-v7.js"></script>

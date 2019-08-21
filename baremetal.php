@@ -30,21 +30,7 @@ function includeWithVariables($filePath, $variables = array(), $print = true)
 <body>
     <?php include('./parts/menu.php'); ?>
     <div class="app-content flex">
-        <?php include('./parts/banner.php'); ?>
-        
-        <div class="section-2">
-            <?php 
-                include('./parts/products.php');
-                include('./parts/services.php');
-            ?>
-        </div>
-
-        <div class="section-3">
-            <?php 
-                include('./parts/fundementals.php');
-                include('./parts/comparison.php');
-            ?>
-        </div>
+        <?php include('./baremetal/banner.php'); ?>
 
         <?php include('./parts/footer.php'); ?>
     </div>

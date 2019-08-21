@@ -95,9 +95,9 @@
 
                 <div class="centered column">
                     <div class="ui raised segment">
-                        <i class="fal fa-code-branch"></i>
+                        <i class="fal fa-monitor-heart-rate"></i>
                         <p class="p-lg">
-                            Constantly expanding, we never run out of stock as we can expand with new nodes within hours!
+                            Automated node monitoring, allowing us to reduce downtime by bringing servers back online automatically, in the event of a crash or unexpected downtime
                         </p>
                     </div>
                 </div>
