@@ -464,13 +464,6 @@ section.ui.container {
     z-index: 10;
 }
 
-.fancyfade {
-    opacity: 0;
-    left: 20px;
-    top: 0;
-    position: relative;
-}
-
 @media screen and (max-width: 1000px) {
     .ui.steps .active.step .icon {
         width: 100%;
@@ -519,4 +512,29 @@ section.ui.container {
     clear: both;
     height: 0;
 }
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        left: 20px;
+        top: 0;
+    }
+    100% { 
+        visibility: visible;
+        opacity: 1;
+        left: 0;
+        top: 0;
+    }
+}
+
+.fancyfade {
+    animation-fill-mode: forwards;
+    visibility: hidden;
+
+    animation-delay: .5s;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    position: relative;
+}
+
 </style>

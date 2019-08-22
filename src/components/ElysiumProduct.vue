@@ -19,7 +19,7 @@
             Buy one
             <i class="fal fa-sm fa-chevron-right"></i>
         </button>
-        <router-link v-if="product == 'baremetal'" :to="{ name: 'Baremetal' }" class="product-button">
+        <router-link v-if="product == 'baremetal'" :to="{ name: 'ElysiumBaremetal' }" class="product-button">
             Tell me more
             <i class="fal fa-sm fa-chevron-right"></i>
         </router-link>

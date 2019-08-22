@@ -20,18 +20,19 @@
 import ElysiumBanner from './ElysiumBanner'
 import ElysiumProducts from './ElysiumProducts'
 import ElysiumServices from './ElysiumServices'
+import ElysiumFundementals from './ElysiumFundementals'
+import ElysiumComparison from './ElysiumComparison'
+import ElysiumFooter from './ElysiumFooter'
 
 export default {
     name: 'Elysium',
     components: {
-        ElysiumBanner, 
-        ElysiumProducts, 
-        ElysiumServices
-    },
-    data () {
-        return {
-            msg: 'Welcome to Your Vue.js App'
-        }
+        ElysiumBanner,
+        ElysiumProducts,
+        ElysiumServices,
+        ElysiumFundementals,
+        ElysiumComparison,
+        ElysiumFooter
     }
 }
 </script>

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Elysium from '@/components/Elysium'
-import Baremetal from '@/components/Baremetal'
+import ElysiumBaremetal from '@/components/ElysiumBaremetal'
 
 Vue.use(Router)
 
@@ -14,8 +14,8 @@ export default new Router({
         },
         {
             path: '/baremetal',
-            name: 'Baremetal',
-            component: Baremetal
+            name: 'ElysiumBaremetal',
+            component: ElysiumBaremetal
         }
     ]
 })

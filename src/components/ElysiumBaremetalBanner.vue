@@ -5,12 +5,12 @@
                 <div class="ui mobile reversed stackable grid">
                     <div class="nine wide column">
                         <h1>
-                            <span class="text-sm">The most unique</span> <br/>
-                            <span class="text-lg">Plex appbox service ever experienced!</span>
+                            <span class="text-sm">The Baremetal</span> <br/>
+                            <span class="text-lg">Everything about it, and its features</span>
                         </h1>
                     </div>
                     <div class="seven wide column">
-                        <img class="fancyfade" src="../assets/images/banner1_alt.svg" alt="Banner Image">
+                        <img class="fancyfade" src="../assets/images/dedicated3.svg" alt="Banner Image">
                     </div>
                 </div>
             </div>
@@ -20,6 +20,12 @@
 
 <script>
 export default {
-    name: 'ElysiumBanner',
+    name: 'ElysiumBaremetalBanner',
 }
 </script>
+
+<style scoped>
+.container.fullheight {
+    height: 500px !important;
+}
+</style>
