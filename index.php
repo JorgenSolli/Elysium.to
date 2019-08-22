@@ -26,11 +26,11 @@ function includeWithVariables($filePath, $variables = array(), $print = true)
 
 <!DOCTYPE html>
 <html lang="en">
-<?php include('./parts/head.php'); ?>
+<!-- <?php include('./parts/head.php'); ?> -->
 <body>
-    <?php include('./parts/menu.php'); ?>
+    <!-- <?php include('./parts/menu.php'); ?> -->
     <div class="app-content flex">
-        <?php include('./parts/banner.php'); ?>
+        <!-- <?php include('./parts/banner.php'); ?> -->
         
         <div class="section-2">
             <?php 
