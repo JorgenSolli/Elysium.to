@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Elysium from '@/components/Elysium'
-import ElysiumBaremetal from '@/components/ElysiumBaremetal'
+import Elysium from '@/pages/Elysium'
+import ElysiumBaremetal from '@/pages/ElysiumBaremetal'
 
 Vue.use(Router)
 

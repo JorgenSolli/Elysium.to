@@ -2,24 +2,28 @@
     <div>
         <elysium-baremetal-banner></elysium-baremetal-banner>
 
+        <!-- Content -->
+
         <elysium-footer></elysium-footer>
     </div>
 </template>
 
 <script>
 
-import ElysiumBaremetalBanner from './ElysiumBaremetalBanner'
-import ElysiumProducts from './ElysiumProducts'
-import ElysiumServices from './ElysiumServices'
-import ElysiumFooter from './ElysiumFooter'
+import ElysiumBaremetalBanner from '@/components/baremetal/ElysiumBaremetalBanner'
+import ElysiumFooter from '@/components/ElysiumFooter'
 
 export default {
     name: 'ElysiumBaremetal',
     components: {
         ElysiumBaremetalBanner, 
-        ElysiumProducts, 
-        ElysiumServices,
         ElysiumFooter
     }
 }
 </script>
+
+<style scoped>
+    .frontpage {
+        background: radial-gradient(circle, #f8a32f 0%, #fb5e1f 100%)
+    }
+</style>

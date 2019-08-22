@@ -10,7 +10,7 @@
                         </h1>
                     </div>
                     <div class="seven wide column">
-                        <img class="fancyfade" src="../assets/images/dedicated3.svg" alt="Banner Image">
+                        <img class="fancyfade" :src="require(`@/assets/images/dedicated3.svg`)" alt="Banner Image">
                     </div>
                 </div>
             </div>

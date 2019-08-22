@@ -26,7 +26,7 @@
                         desc="We get it; you like 4k. And possibly Tautulli too! Go ahead and get some use out of that 4k TV you got hanging on the wall!"
                         :tautulli=true
                         :four_k=true
-                        :transcodes=1
+                        :transcodes=4
                     />
                 </div>
                 <div class="column">
@@ -78,7 +78,7 @@
                         desc="Looking to bring out the big guns I see... Click on <strong>Tell me more</strong> to learn more! There's a lot to learn"
                         :tautulli=true
                         :four_k=true
-                        :transcodes=6
+                        :transcodes=25
                     />
                 </div>
             </div>

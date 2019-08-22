@@ -167,7 +167,7 @@ section.ui.container {
     margin-bottom: 0;
     margin-top: 0;
     width: 100vw;
-    background: transparent;
+    background: rgba(0, 0, 0, .15);
 }
 
 .ui.top.menu .item {
@@ -315,7 +315,7 @@ section.ui.container {
     height: 70px;
 }
 
-#statistics, #footer {
+#statistics {
     background: #fff;
     padding: 50px 0;
     box-shadow: inset 0px 0px 6px -2px rgba(58, 58, 58, 1);
@@ -379,39 +379,6 @@ section.ui.container {
 
 .mobile-buttons button:first-child {
     margin-bottom: 10px;
-}
-
-#footer {
-    background: radial-gradient(circle, #1280e1 0%, #002069 100%);
-}
-
-#footer p {
-    color: #fff;
-}
-
-#footer img {
-    height: 80px;
-}
-
-#footer .list {
-    background: transparent;
-    box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15);
-    padding: 0;
-}
-
-#footer .list .item {
-    border-radius: 0;
-    border-bottom-color: rgba(34, 36, 38, 0.15);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-}
-
-#footer .list .item:last-child {
-    border-bottom-color: rgba(34, 36, 38, 0);
-}
-
-#footer .list:not(.huge) .item:hover {
-    text-decoration: underline;
 }
 
 /* XS MOBILE */

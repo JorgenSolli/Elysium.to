@@ -17,12 +17,12 @@
 </template>
 
 <script>
-import ElysiumBanner from './ElysiumBanner'
-import ElysiumProducts from './ElysiumProducts'
-import ElysiumServices from './ElysiumServices'
-import ElysiumFundementals from './ElysiumFundementals'
-import ElysiumComparison from './ElysiumComparison'
-import ElysiumFooter from './ElysiumFooter'
+import ElysiumBanner from '@/components/ElysiumBanner'
+import ElysiumProducts from '@/components//ElysiumProducts'
+import ElysiumServices from '@/components//ElysiumServices'
+import ElysiumFundementals from '@/components//ElysiumFundementals'
+import ElysiumComparison from '@/components//ElysiumComparison'
+import ElysiumFooter from '@/components//ElysiumFooter'
 
 export default {
     name: 'Elysium',
