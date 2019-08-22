@@ -27,5 +27,6 @@ export default {
 <style scoped>
 .container.fullheight {
     height: 500px !important;
+    min-height: auto;
 }
 </style>

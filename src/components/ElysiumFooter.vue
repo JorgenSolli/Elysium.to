@@ -4,7 +4,7 @@
             <div class="ui centered equal width grid mobile reversed stackable">
                 <div class="centered column">
                     <img :src="require(`@/assets/images/elysium_logo_simple.svg`)" alt="Elysium logo"/>
-                    <p>&copy; 2016 - {{ year }}, Elysium.to.</p>
+                    <p style="padding-top: 15px;">&copy; 2016 - {{ year }}, Elysium.to.</p>
                 </div>
 
                 <div class="centered column">
@@ -57,10 +57,11 @@ export default {
     background-color: #f9f9f9;
     background: url('../assets/images/svg/footer_bg.svg');
     background-size: cover;
+    background-position: center;
 }
 
 #footer p {
-    color: #202020;
+    color: #fff;
 }
 
 #footer img {
@@ -86,11 +87,5 @@ export default {
 
 #footer .list:not(.huge) .item:hover {
     text-decoration: underline;
-}
-
-@media screen and (max-width: 900px) {
-    #footer p {
-        color: #fff;
-    }
 }
 </style>
