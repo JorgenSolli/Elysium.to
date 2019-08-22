@@ -70,7 +70,7 @@
                 </div>
                 <div class="column">
                     <elysium-product
-                        img="dedicated2"
+                        img="dedicated3"
                         product="baremetal"
                         type="dedicated"
                         price="75"
