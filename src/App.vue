@@ -504,4 +504,65 @@ section.ui.container {
     position: relative;
 }
 
+.product-button {
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.product-button img.emoji {
+    height: 30px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.product-button.product-button--large {
+    padding: 15px 40px;
+    border-radius: 40px;
+    font-size: 1.5rem;
+}
+
+.product-button:hover, .product-button:focus {
+    color: #fff;
+}
+
+.product-button .fal {
+    position: relative;
+    left: 0;
+    transition: left .2s;
+}
+
+.product-button:hover .fal, .product-button:focus .fal {
+    left: 5px;
+}
+
+.appbox_regular .product-button {
+    background: #1d6fb8;
+}
+
+.appbox_regular .product-button:hover, .appbox_regular .product-button:focus {
+    background: #204aa0;
+}
+
+.appbox_plus .product-button {
+    background: #1d6a73;
+}
+
+.appbox_plus .product-button:hover, .appbox_plus .product-button:focus {
+    background: #0f4048;
+}
+
+.baremetal .product-button {
+    background: #fb6021;
+}
+
+.baremetal .product-button:hover, .baremetal .product-button:focus {
+    background: #c54815;
+}
+
 </style>

@@ -94,7 +94,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .product-card {
     background: white;
     width: 300px;
@@ -260,49 +260,5 @@ export default {
 
 .product-card__cta {
     padding-bottom: 20px;
-}
-
-.product-card__cta .product-button {
-    border: none;
-    color: #fff;
-    border-radius: 20px;
-    padding: 5px 20px;
-    margin: 0 10px;
-    cursor: pointer;
-    transition: all .2s;
-}
-
-.product-card__cta .product-button .fal {
-    position: relative;
-    left: 0;
-    transition: left .2s;
-}
-
-.product-card__cta .product-button:hover .fal, .product-card__cta .product-button:focus .fal {
-    left: 5px;
-}
-
-.appbox_regular .product-card__cta .product-button {
-    background: #1d6fb8;
-}
-
-.appbox_regular .product-card__cta .product-button:hover, .appbox_regular .product-card__cta .product-button:focus {
-    background: #204aa0;
-}
-
-.appbox_plus .product-card__cta .product-button {
-    background: #1d6a73;
-}
-
-.appbox_plus .product-card__cta .product-button:hover, .appbox_plus .product-card__cta .product-button:focus {
-    background: #0f4048;
-}
-
-.baremetal .product-card__cta .product-button {
-    background: #fb6021;
-}
-
-.baremetal .product-card__cta .product-button:hover, .baremetal .product-card__cta .product-button:focus {
-    background: #c54815;
 }
 </style>

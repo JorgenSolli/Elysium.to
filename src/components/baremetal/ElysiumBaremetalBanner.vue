@@ -6,7 +6,7 @@
                     <div class="nine wide column">
                         <h1>
                             <span class="text-sm">The Baremetal</span> <br/>
-                            <span class="text-lg">Everything about it, and its features</span>
+                            <span class="text-lg">Stuff you should know about it</span>
                         </h1>
                     </div>
                     <div class="seven wide column">

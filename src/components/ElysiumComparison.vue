@@ -31,21 +31,6 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="ui middle attached mini unstackable steps">
-                    <div class="active step">
-                        <i class="fal fa-hdd icon"></i>
-                        <div class="content">
-                            <div class="title">Dedicated SSD Disk</div>
-                        </div>
-                    </div>
-                    <div class="step">
-                        <i class="fal fa-times-circle icon"></i>
-                    </div>
-                    <div class="step">
-                        <i class="fal fa-check-circle icon"></i>
-                    </div>
-                </div>
 
                 <div class="ui middle attached mini unstackable steps">
                     <div class="active step">
@@ -55,10 +40,10 @@
                         </div>
                     </div>
                     <div class="step">
-                        SSD
+                        NVMe
                     </div>
                     <div class="step">
-                        NVMe(4x faster)
+                        NVMe
                     </div>
                 </div>
 
@@ -130,7 +115,7 @@
                     <div class="active step">
                         <i class="fal fa-video icon"></i>
                         <div class="content">
-                            <div class="title">4k Movies</div>
+                            <div class="title">4k allowed</div>
                         </div>
                     </div>
                     <div class="step">
