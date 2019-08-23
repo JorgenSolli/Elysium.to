@@ -29,4 +29,10 @@ export default {
     height: 500px !important;
     min-height: auto;
 }
+
+@media screen and (max-width: 770px) {
+    .container.fullheight {
+        height: auto !important;
+    }
+}
 </style>

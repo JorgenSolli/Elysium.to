@@ -40,10 +40,14 @@
                         </div>
                     </div>
                     <div class="step">
-                        NVMe
+                        <div class="content">
+                            <div class="title">NVMe</div>
+                        </div>
                     </div>
                     <div class="step">
-                        NVMe
+                        <div class="content">
+                            <div class="title">NVMe</div>
+                        </div>
                     </div>
                 </div>
 

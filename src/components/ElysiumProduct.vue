@@ -15,10 +15,14 @@
     </div>
 
     <div class="product-card__cta">
-        <button class="product-button">
+        <a :href="url" v-if="inStock" class="product-button">
             Buy one
             <i class="fal fa-sm fa-chevron-right"></i>
-        </button>
+        </a>
+        <div v-else class="out-of-stock">
+            Out of stock
+            <img class="emoji" height="30px" :src="require(`@/assets/images/crying_face.png`)" alt="Sad emoji"/>
+        </div>
         <router-link v-if="product == 'baremetal'" :to="{ name: 'ElysiumBaremetal' }" class="product-button">
             Tell me more
             <i class="fal fa-sm fa-chevron-right"></i>
@@ -85,10 +89,17 @@ export default {
             default: false,
             type: Boolean
         },
+        url: {
+            require: true,
+            type: String
+        },
         four_k: {
             required: false,
             default: false,
             type: Boolean
+        },
+        inStock: {
+            required: true
         }
     }
 }
@@ -97,7 +108,8 @@ export default {
 <style>
 .product-card {
     background: white;
-    width: 300px;
+    width: 100%;
+    max-width: 320px;
     margin: auto;
     border-radius: 19px;
     position: relative;
@@ -165,13 +177,12 @@ export default {
 .product-card__unit-description {
     padding: 20px;
     margin-top: 20px;
-    margin-bottom: 10px;
     min-height: 100px;
 }
 
 .product-card__price {
     padding: 0 20px 0 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
     border: 0;
     font-size: 100%;
@@ -260,5 +271,15 @@ export default {
 
 .product-card__cta {
     padding-bottom: 20px;
+}
+
+.product-card .out-of-stock img.emoji {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.product-card .out-of-stock {
+    margin-top: -15px;
 }
 </style>

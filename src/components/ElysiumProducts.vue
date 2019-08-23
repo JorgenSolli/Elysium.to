@@ -13,7 +13,9 @@
                         price="9.99"
                         title="APPBOX 1"
                         desc="The Appbox for all the single people out there! No just kidding you can watch with your spouce, too!"
+                        url="https://elysium.to/client/cart.php?a=add&pid=1"
                         :transcodes=1
+                        v-bind:in-stock=$root.stock.shared_appbox_1
                     />
                 </div>
                 <div class="column">
@@ -24,9 +26,11 @@
                         price="19.99"
                         title="APPBOX+ 1"
                         desc="We get it; you like 4k. And possibly Tautulli too! Go ahead and get some use out of that 4k TV you got hanging on the wall!"
+                        url="https://elysium.to/client/cart.php?a=add&pid=20"
                         :tautulli=true
                         :four_k=true
                         :transcodes=4
+                        v-bind:in-stock=$root.stock.shared_appbox_1_plus
                     />
                 </div>
                 <div class="column">
@@ -37,9 +41,11 @@
                         price="60"
                         title="baremetal 1"
                         desc="Okay we're getting serious... Click on <strong>Tell me more</strong> to learn more! There's a lot to learn"
+                        url="https://elysium.to/client/cart.php?a=add&pid=16"
                         :transcodes=25
                         :four_k=true
                         :tautulli=true
+                        v-bind:in-stock=$root.stock.baremetal_1
                     />
                 </div>
             </div>
@@ -52,7 +58,9 @@
                         price="15"
                         title="APPBOX 2"
                         desc="Feeling extra kind? Share with a friend or two! Or dont... we're not the boss of you"
+                        url="https://elysium.to/client/cart.php?a=add&pid=7"
                         :transcodes=3
+                        v-bind:in-stock=$root.stock.shared_appbox_2
                     />
                 </div>
                 <div class="column">
@@ -63,9 +71,11 @@
                         price="29.99"
                         title="Appbox+ 2"
                         desc="For all the popular people out there with very demanding friends! Room for all your friends with those big 4k TVs."
+                        url="https://elysium.to/client/cart.php?a=add&pid=23"
                         :tautulli=true
                         :four_k=true
                         :transcodes=6
+                        v-bind:in-stock=$root.stock.shared_appbox_2_plus
                     />
                 </div>
                 <div class="column">
@@ -76,9 +86,11 @@
                         price="75"
                         title="Baremetal 2"
                         desc="Looking to bring out the big guns I see... Click on <strong>Tell me more</strong> to learn more! There's a lot to learn"
+                        url="https://elysium.to/client/cart.php?a=add&pid=25"
                         :tautulli=true
                         :four_k=true
                         :transcodes=25
+                        v-bind:in-stock=$root.stock.baremetal_2
                     />
                 </div>
             </div>
