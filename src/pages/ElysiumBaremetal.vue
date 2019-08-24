@@ -2,7 +2,7 @@
     <div>
         <elysium-baremetal-banner></elysium-baremetal-banner>
 
-        <section id="reseller-panel" class="ui container">
+            <section id="reseller-panel" class="ui container">
             <div class="ui equal width grid mobile stackable">
                 <div class="column">
                     <h2><small>The Reseller Panel</small></h2>
