@@ -12,7 +12,7 @@
                         type="shared"
                         price="9.99"
                         title="APPBOX 1"
-                        desc="The Appbox for all the single people out there! No just kidding you can watch with your spouce, too!"
+                        desc="The Appbox for all the single people out there! No just kidding you can watch with your spouse, too!"
                         url="https://elysium.to/client/cart.php?a=add&pid=1"
                         :transcodes=1
                         v-bind:in-stock=$root.stock.shared_appbox_1
