@@ -281,5 +281,6 @@ export default {
 
 .product-card .out-of-stock {
     margin-top: -15px;
+    display: inline-block;
 }
 </style>

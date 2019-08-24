@@ -584,7 +584,14 @@ export default {
         background: #fb6021;
     }
 
-    .baremetal .product-button:hover, .baremetal .product-button:focus {
+    .baremetal .product-button.disabled {
+        background: #fc8555;
+    }
+    .baremetal .product-button.disabled:hover {
+        cursor: default;
+    }
+
+    .baremetal .product-button:not(.disabled):hover, .baremetal .product-button:not(.disabled):focus {
         background: #c54815;
     }
 
