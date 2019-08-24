@@ -70,19 +70,19 @@
                         Get a Baremetal 1
                         <img class="emoji" :src="require(`@/assets/images/clapping_hands.png`)"/>
                     </a>
-                    <button v-else disabled class="product-button product-button--large">
+                    <a v-else class="disabled product-button product-button--large">
                         Baremetal 1 is out of stock
                         <img class="emoji" :src="require(`@/assets/images/crying_face.png`)"/>
-                    </button>
+                    </a>
 
                     <a v-if="$root.stock.baremetal_2" href="https://elysium.to/client/cart.php?a=add&pid=25" class="product-button product-button--large">
                         Get a Baremetal 2
                         <img class="emoji" :src="require(`@/assets/images/drooling_face.png`)"/>
                     </a>
-                    <button v-else class="product-button product-button--large">
+                    <a v-else class="disabled product-button product-button--large">
                         Baremetal 2 is out of stock
                         <img class="emoji" :src="require(`@/assets/images/crying_face.png`)"/>
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>
