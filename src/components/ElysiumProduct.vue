@@ -13,6 +13,12 @@
         <span class="value" v-text="price"></span>
         <span class="period">/MO</span>
     </div>
+    <span class="product-card__setup-fee" v-if="title == 'Baremetal 1'">
+        Setup-fee 50$
+    </span>
+    <span class="product-card__setup-fee" v-else-if="title == 'Baremetal 2'">
+        Setup-fee 70$
+    </span>
 
     <div class="product-card__cta">
         <a :href="url" v-if="inStock" class="product-button">
@@ -206,6 +212,11 @@ export default {
 
 .product-card__price .period {
     font-size: 1.4rem;
+}
+
+.product-card__setup-fee {
+    position: relative;
+    top: -20px;
 }
 
 .product-card__unit-stats {
