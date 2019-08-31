@@ -39,7 +39,7 @@
                         product="baremetal"
                         type="dedicated"
                         price="60"
-                        title="baremetal 1"
+                        title="Baremetal 1"
                         desc="Okay we're getting serious... Click on <strong>Tell me more</strong> to learn more! There's a lot to learn"
                         url="https://elysium.to/client/cart.php?a=add&pid=16"
                         :transcodes=25
