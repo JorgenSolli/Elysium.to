@@ -2,7 +2,7 @@
 
 <div :class="product" class="product-card">
     <div class="product-card__image">
-        <img class="product" alt="Shared Appbox 2" :src="require(`@/assets/images/${img}.svg`)">
+        <img class="product" :alt="type" :src="require(`@/assets/images/${img}.svg`)">
         <div class="product-card__level" v-text="type"></div>
         <div class="product-card__unit-name" v-text="title"></div>
     </div>
