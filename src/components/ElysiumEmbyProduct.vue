@@ -20,7 +20,7 @@
             <div class="stats">
                 <div class="stat">
                     <span class="stat-value">CDN - </span>
-                    <span class="stat">Currently not possible</span>
+                    <span class="stat">Currently not available</span>
                 </div>
                 <div class="stat">
                     <span class="stat-value">4k - </span>
@@ -34,9 +34,17 @@
         </div>
     </div>
 
-    <a href="https://elysium.to/client/cart.php?a=add&amp;pid=25" class="product-button product-button--large">
+    <a
+        v-if="$root.stock.emby_1"
+        href="https://elysium.to/client/cart.php?a=add&amp;pid=26" 
+        class="product-button product-button--large"
+    >
         Buy one for 9,99$ /mo
         <i class="fal fa-sm fa-chevron-right"></i>
+    </a>
+    <a v-else class="disabled product-button product-button--large">
+        Out of stock
+        <img class="emoji" :src="require(`@/assets/images/crying_face.png`)"/>
     </a>
 </div>
 </template>
@@ -59,7 +67,7 @@ export default {
     text-align: center;
     box-shadow: -1px 15px 30px -12px black;
     color: #fefefe;
-    padding: 25px 20px;
+    padding: 30px 25px;
 }
 
 .landscape-product-card .header {
@@ -106,11 +114,10 @@ export default {
     margin-top: 15px;
 }
 
-.product-button {
+.landscape-product-card .product-button {
     border: none;
     color: #fff;
     border-radius: 20px;
-    padding: 5px 20px;
     margin: 0 10px;
     cursor: pointer;
     transition: all .2s;
@@ -119,21 +126,19 @@ export default {
     display: inline-block;
 }
 
-.product-button.product-button--large img.emoji {
-    height: 30px;
-    position: relative;
-    top: 5px;
-    left: 5px;
+.landscape-product-card .product-button.disabled {
+    background: #69da61;
+    padding-top: 5px !important;
 }
 
-.product-button.product-button--large {
+.landscape-product-card .product-button.disabled:hover {
+    cursor: default;
+}
+
+.landscape-product-card .product-button.product-button--large {
     padding: 15px 40px;
     border-radius: 40px;
     font-size: 1.5rem;
-}
-
-.product-button:hover, .product-button:focus {
-    color: #fff;
 }
 
 @media screen and (max-width: 770px) {
