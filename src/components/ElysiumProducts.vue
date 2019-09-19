@@ -96,6 +96,10 @@
             </div>
         </section>
 
+        <section class="ui container space">
+            <elysium-emby-product/>
+        </section>
+
         <section id="newsletter" class="ui container space centered">
             <form class="ui form" id="mailforge-embedded-form" action="https://hosted.mailforge.io/subscribe?u=37pJOG" method="POST">
                 <h2 class="mailforge-title"><small>Product out of stock?</small></h2>
@@ -122,10 +126,14 @@
 
 <script>
 import ElysiumProduct from './ElysiumProduct'
+import ElysiumEmbyProduct from '@/components/ElysiumEmbyProduct'
 
 export default {
     name: 'ElysiumProducts',
-    components: { ElysiumProduct }
+    components: {
+        ElysiumProduct,
+        ElysiumEmbyProduct
+    }
 }
 </script>
 
