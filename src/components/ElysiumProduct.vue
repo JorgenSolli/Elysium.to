@@ -19,6 +19,8 @@
     <span class="product-card__setup-fee" v-else-if="title == 'Baremetal 2'">
         Setup-fee 70$
     </span>
+    <span class="product-card__setup-fee" v-else>
+    </span>
 
     <div class="product-card__cta">
         <a :href="url" v-if="inStock" class="product-button">
@@ -217,6 +219,8 @@ export default {
 .product-card__setup-fee {
     position: relative;
     top: -20px;
+    min-height: 20px;
+    display: inline-block;
 }
 
 .product-card__unit-stats {
