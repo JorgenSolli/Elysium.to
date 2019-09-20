@@ -4,7 +4,7 @@
     <div class="ui stackable equal width grid">
         <div class="column">
             <div class="header">
-                We just went to fucking space... <br/>With Emby <img class="emby-logo" :src="require(`@/assets/images/emby.png`)"/>
+                We heard you, you wanted Emby...<br/>And now it's here! <img class="emby-logo" :src="require(`@/assets/images/emby.png`)"/>
                 <div class="sub-header">
                     We get it, you're not a Plex person. We have heard you, and in true Elysium fashion, we deliver!
 
@@ -14,7 +14,7 @@
         </div>
         <div class="column">
             <div class="header right-header">
-                Quick details
+                What you need to know!
             </div>
 
             <div class="stats">
@@ -25,6 +25,10 @@
                 <div class="stat">
                     <span class="stat-value">4k - </span>
                     <span class="stat">No. Not yet at least</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">Price - </span>
+                    <span class="stat">9,99$ /mo</span>
                 </div>
                 <div class="stat">
                     <span class="stat-value">Transcodes - </span>
@@ -155,7 +159,7 @@ export default {
     }
 
     .product-button.product-button--large {
-        padding: 5px 40px;
+        padding: 5px 40px !important;
     }
 }
 </style>
