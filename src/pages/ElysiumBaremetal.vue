@@ -9,7 +9,7 @@
                     <p class="p-lg">
                         The Reseller Panel allows you to deploy and administer users and containers (Plex instances) on your server. This allows you to manage either friends or actual customers.
                         <br/><br/>
-                        The panel cost an additional 10$ /month and will allow you to deploy up to <strong>9</strong> containers for the <span class="baremetal label">Baremetal 1</span> and up to <strong>21</strong> for the <span class="baremetal label">Baremetal 2</span>
+                        The panel cost an additional 18$ /month and will allow you to deploy up to <strong>9</strong> containers for the <span class="baremetal label">Baremetal 1</span> and up to <strong>21</strong> for the <span class="baremetal label">Baremetal 2</span>
                     </p>
                 </div>
 
